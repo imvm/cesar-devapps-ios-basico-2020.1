@@ -31,6 +31,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="7MO-ME-1op"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -99,10 +100,10 @@
             </objects>
             <point key="canvasLocation" x="1715" y="-154"/>
         </scene>
-        <!--View Controller-->
+        <!--tela 4-->
         <scene sceneID="0PU-CX-R94">
             <objects>
-                <viewController id="k0n-eT-lrJ" sceneMemberID="viewController">
+                <viewController title="tela 4" id="k0n-eT-lrJ" customClass="Tela4ViewController" customModule="TesteNavegacao" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AuJ-nX-e10">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -114,6 +115,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Axu-Y5-8ZP">
+                                <rect key="frame" x="101" y="217" width="213" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Voltar para inicio"/>
+                                <connections>
+                                    <segue destination="cr9-ti-VVj" kind="unwind" unwindAction="unwindToTela1:" id="cul-ab-6t7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ak1-4U-GK0"/>
                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
@@ -121,8 +131,9 @@
                     <navigationItem key="navigationItem" id="zkA-FI-bub"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fPT-Bk-E3X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="cr9-ti-VVj" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1897" y="338"/>
+            <point key="canvasLocation" x="964" y="848"/>
         </scene>
     </scenes>
     <resources>
