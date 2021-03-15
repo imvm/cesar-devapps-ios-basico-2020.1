@@ -15,6 +15,10 @@ class Tela2ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func mostrarSettings(_ sender: Any) {
+
+    }
+    
     @IBAction func irParaTela3(_ sender: Any) {
         guard let tela3ViewController = storyboard?.instantiateViewController(withIdentifier: "tela3") else {
             fatalError("não encontrou a tela 3")
