@@ -57,11 +57,18 @@
                     </view>
                     <navigationItem key="navigationItem" title="Segunda" largeTitleDisplayMode="never" id="n6s-qY-bHA">
                         <barButtonItem key="backBarButtonItem" title=" " id="cUh-Cy-aYc"/>
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="square.and.arrow.up" catalog="system" id="Psg-yA-nhG">
-                            <connections>
-                                <action selector="irParaTela3:" destination="RhY-hN-VBI" id="VLi-6r-6UO"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Item" image="square.and.arrow.down" catalog="system" id="Psg-yA-nhG">
+                                <connections>
+                                    <action selector="irParaTela3:" destination="RhY-hN-VBI" id="VLi-6r-6UO"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Item" image="gearshape" catalog="system" id="enV-os-66l">
+                                <connections>
+                                    <action selector="mostrarSettings:" destination="RhY-hN-VBI" id="bwJ-EJ-c7h"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9HG-Nf-paM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -117,11 +124,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S5i-zg-IaJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="323" y="116"/>
+            <point key="canvasLocation" x="255" y="116"/>
         </scene>
     </scenes>
     <resources>
-        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
+        <image name="gearshape" catalog="system" width="128" height="121"/>
+        <image name="square.and.arrow.down" catalog="system" width="121" height="128"/>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
