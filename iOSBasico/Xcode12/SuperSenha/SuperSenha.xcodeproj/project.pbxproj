@@ -13,6 +13,10 @@
 		2B3BF619260021C10074CC5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BF617260021C10074CC5A /* Main.storyboard */; };
 		2B3BF61B260021C40074CC5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BF61A260021C40074CC5A /* Assets.xcassets */; };
 		2B3BF61E260021C40074CC5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BF61C260021C40074CC5A /* LaunchScreen.storyboard */; };
+		2BCA0E532601735C00CD81C3 /* SecurityTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCA0E522601735C00CD81C3 /* SecurityTipsViewController.swift */; };
+		2BCA0E6126017D3C00CD81C3 /* DicasSenha.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2BCA0E6026017D3B00CD81C3 /* DicasSenha.txt */; };
+		2BEBF08E2601839A00509722 /* PasswordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEBF08D2601839A00509722 /* PasswordsViewController.swift */; };
+		2BEBF092260188A200509722 /* PasswordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEBF091260188A200509722 /* PasswordGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		2B3BF61A260021C40074CC5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B3BF61D260021C40074CC5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B3BF61F260021C40074CC5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BCA0E522601735C00CD81C3 /* SecurityTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityTipsViewController.swift; sourceTree = "<group>"; };
+		2BCA0E6026017D3B00CD81C3 /* DicasSenha.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DicasSenha.txt; sourceTree = "<group>"; };
+		2BEBF08D2601839A00509722 /* PasswordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsViewController.swift; sourceTree = "<group>"; };
+		2BEBF091260188A200509722 /* PasswordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				2B3BF611260021C10074CC5A /* AppDelegate.swift */,
 				2B3BF613260021C10074CC5A /* SceneDelegate.swift */,
 				2B3BF615260021C10074CC5A /* ViewController.swift */,
+				2BCA0E522601735C00CD81C3 /* SecurityTipsViewController.swift */,
+				2BEBF08D2601839A00509722 /* PasswordsViewController.swift */,
+				2BEBF091260188A200509722 /* PasswordGenerator.swift */,
+				2BCA0E6026017D3B00CD81C3 /* DicasSenha.txt */,
 				2B3BF617260021C10074CC5A /* Main.storyboard */,
 				2B3BF61A260021C40074CC5A /* Assets.xcassets */,
 				2B3BF61C260021C40074CC5A /* LaunchScreen.storyboard */,
@@ -127,6 +139,7 @@
 				2B3BF61E260021C40074CC5A /* LaunchScreen.storyboard in Resources */,
 				2B3BF61B260021C40074CC5A /* Assets.xcassets in Resources */,
 				2B3BF619260021C10074CC5A /* Main.storyboard in Resources */,
+				2BCA0E6126017D3C00CD81C3 /* DicasSenha.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BEBF08E2601839A00509722 /* PasswordsViewController.swift in Sources */,
+				2BCA0E532601735C00CD81C3 /* SecurityTipsViewController.swift in Sources */,
+				2BEBF092260188A200509722 /* PasswordGenerator.swift in Sources */,
 				2B3BF616260021C10074CC5A /* ViewController.swift in Sources */,
 				2B3BF612260021C10074CC5A /* AppDelegate.swift in Sources */,
 				2B3BF614260021C10074CC5A /* SceneDelegate.swift in Sources */,
