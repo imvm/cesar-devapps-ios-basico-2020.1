@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="LivroCell" customModule="BibliotecaCESARSchool" customModuleProvider="target">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="LivroCell" id="gTV-IL-0wX" customClass="LivroCell" customModule="BibliotecaCESARSchool" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="120" height="160"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -51,7 +51,11 @@
                 <constraint firstItem="oAZ-q2-hHo" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="iTA-wY-aak"/>
             </constraints>
             <size key="customSize" width="50" height="105"/>
-            <point key="canvasLocation" x="-101.44927536231884" y="117.1875"/>
+            <connections>
+                <outlet property="imageView" destination="9cQ-kH-HVV" id="sZR-sX-OBL"/>
+                <outlet property="titleLabel" destination="4uq-4P-zfQ" id="cxu-34-mON"/>
+            </connections>
+            <point key="canvasLocation" x="71" y="54"/>
         </collectionViewCell>
     </objects>
     <resources>

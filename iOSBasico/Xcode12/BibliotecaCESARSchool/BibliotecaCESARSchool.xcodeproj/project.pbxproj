@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		2BFA8FC2260E979300D2E438 /* Biblioteca.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFA8FC1260E979300D2E438 /* Biblioteca.swift */; };
 		2BFA8FC7260E9BF700D2E438 /* LivroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFA8FC5260E9BF700D2E438 /* LivroCell.swift */; };
 		2BFA8FC8260E9BF700D2E438 /* LivroCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BFA8FC6260E9BF700D2E438 /* LivroCell.xib */; };
+		2BFA8FD5260EB63400D2E438 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 2BFA8FD4260EB63400D2E438 /* Nuke */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BFA8FD5260EB63400D2E438 /* Nuke in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +116,9 @@
 			dependencies = (
 			);
 			name = BibliotecaCESARSchool;
+			packageProductDependencies = (
+				2BFA8FD4260EB63400D2E438 /* Nuke */,
+			);
 			productName = BibliotecaCESARSchool;
 			productReference = 2BFA8FA1260E949900D2E438 /* BibliotecaCESARSchool.app */;
 			productType = "com.apple.product-type.application";
@@ -141,6 +146,9 @@
 				Base,
 			);
 			mainGroup = 2BFA8F98260E949900D2E438;
+			packageReferences = (
+				2BFA8FD3260EB63400D2E438 /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
 			productRefGroup = 2BFA8FA2260E949900D2E438 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -375,6 +383,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2BFA8FD3260EB63400D2E438 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2BFA8FD4260EB63400D2E438 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BFA8FD3260EB63400D2E438 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2BFA8F99260E949900D2E438 /* Project object */;
 }
